@@ -20,19 +20,22 @@ body {
 }
 
 h1 {
-	color: darkgray;
+	text-align: center;
+	color: black;
 	font-size: 100px;
 	font-family: garamond;
 }
 
 h2 {
-	color: darkgray;
+	text-align: center;
+	color: black;
 	font-size: 50px;
 	font-family: garamond;
 }
 
 p {
-	color: darkgray;
+	text-align: center;
+	color: black;
 	font-size: 35px;
 	font-family: garamond;
 }
