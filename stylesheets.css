@@ -92,7 +92,6 @@ p {
 
 .yeezy {
 	position: fixed;
-	opacity: 0;
 	top: 100px;
 	left: 50%;
 	margin-left: -182px;
@@ -103,10 +102,32 @@ p {
 	transition: all 0.5s ease;
 }
 
-#a:target + .yeezy {
-	opacity: 1;
+.budget {
+	position: fixed;
+	top: 140px;
+	left: 50%;
+	margin-left: -150px;
+	height: 352px;
+	width: 352px;
+	z-index: 2;
+	-webkit-transition: visibility 1s;
+	transition: all 0.5s ease;
 }
 
+.new-display {
+	position: fixed;
+	opacity: 0;
+	top: 100px;
+	left: 50%;
+	margin-left: -182px;
+	height: 640px;
+	width: 384px;
+	transition: all 1s ease;
+}
+
+#a:target + .new-display {
+	opacity: 1;
+}
 #a:target {
 	-webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
         filter: blur(5px);
